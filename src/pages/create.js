@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import React, { useState } from 'react'
 import supabase from '../../libs/SupabaseClient';
 
-const create = () => {
+const Create = () => {
 
     const router = useRouter();
 
@@ -66,4 +66,4 @@ const create = () => {
     )
 }
 
-export default create;
+export default Create;
